@@ -170,7 +170,6 @@ var mean = context.sum / context.count;
     // returns true
     ```
 
-
 </section>
 
 <!-- /.notes -->
@@ -218,7 +217,6 @@ var bool = everyOwnBy( obj, isPositive );
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
-
 
 </section>
 
@@ -299,7 +297,6 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [mdn-object]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 
 <!-- <related-links> -->
-
 
 <!-- </related-links> -->
 
