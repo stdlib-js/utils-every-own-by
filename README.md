@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import everyOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-own-by@esm/index.mjs';
+import everyOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-own-by@v0.1.0-esm/index.mjs';
 ```
 
 #### everyOwnBy( object, predicate\[, thisArg ] )
@@ -171,7 +171,7 @@ var mean = context.sum / context.count;
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import everyOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-own-by@esm/index.mjs';
+import everyOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-own-by@v0.1.0-esm/index.mjs';
 
 function isPositive( value ) {
     return ( value > 0 );
