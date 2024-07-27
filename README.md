@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import everyOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-own-by@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-every-own-by/tags). For example,
+
+```javascript
 import everyOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-own-by@v0.1.1-deno/mod.js';
 ```
 
@@ -166,7 +171,7 @@ var mean = context.sum / context.count;
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import everyOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-own-by@v0.1.1-deno/mod.js';
+import everyOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-own-by@deno/mod.js';
 
 function isPositive( value ) {
     return ( value > 0 );
